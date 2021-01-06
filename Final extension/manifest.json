@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Be concentrate!",
+    "version": "1.0",
+    "description": "Your best online study assistant",
+    "browser_action": {
+      "default_popup": "interface.html"
+    },
+    "icons": {
+         "16": "icons/icon16x16.png",
+         "48": "icons/icon48x48.png",
+         "128": "icons/icon128x128.png"
+       },
+
+    "permissions": ["tabs"],
+
+    "background": {
+       "scripts": [
+         "background.js"
+       ],
+       "persistent": false
+     }
+}
