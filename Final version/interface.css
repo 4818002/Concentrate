@@ -1,0 +1,13 @@
+body {
+    background: blue;
+    }
+/* Setting the text color for the 'h1' element */
+h1 {
+    color: yellow;
+    }
+button {
+    color: green;
+    }
+label {
+    color: orange;
+    }
